@@ -1,0 +1,14 @@
+@media screen and (max-width: 375px){
+/*Universal selector*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*1st background*/
+body{
+	background-color: hsl(212, 45%, 89%);
+	width: 100%;  
+}
+
+}

@@ -1,0 +1,47 @@
+/*Universal selector*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*1st background*/
+main{
+	margin: 5% auto;
+	background-color: hsl(212, 45%, 89%); 
+	box-shadow: 0 4px 8px 0 hsl(220, 15%, 55%);
+	width: 90%;
+	height: 500px;
+	padding: 4%;
+}
+/*2nd background*/
+.bgn2{
+	background-color: hsl(0, 0%, 100%);
+	margin: 10px auto;
+	max-width: 250px;
+	border-radius: 10px;
+	max-height: 900px;
+}
+/*image*/
+img{
+	margin: 10px 13px;
+	width: 90%;
+	border-radius: 10px;
+}
+/*paragraph*/
+p{
+	font-family: outline;
+	font-size: 15px;
+	font-weight: 400; 
+	text-align: center;
+	color: hsl(220, 15%, 55%);
+	padding: 20px 20px;
+}
+/*heading*/
+h3{
+	font-family: outline;
+	font-size: 15px;
+	color: hsl(218, 44%, 22%);
+	font-weight: 700; 
+	text-align: center;
+}
+
