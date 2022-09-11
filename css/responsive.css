@@ -1,22 +1,14 @@
-@media only screen and (max-width: 400px) {
-    .content{
-        background-color: hsl(216, 50%, 16%);
-        margin: 50px auto;
-        padding: 10px auto;
-        max-width: 80%;
-        border-radius: 10px;
-        max-height: auto;
-        font-size: 14px;
-        box-shadow: 6px 6px 6px 6px #0c1727;
-
-    }
-    .icon{
-        height: 100%;
-    }
-    .img{
-        width: 90%;
-        margin: 20px 13px;
-        
-    }
+@media screen and (max-width: 375px){
+/*Universal selector*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*1st background*/
+body{
+	background-color: hsl(212, 45%, 89%);
+	width: 100%;  
+}
 
 }
