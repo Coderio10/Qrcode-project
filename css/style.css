@@ -15,7 +15,7 @@ body{
 /*2nd background*/
 .bgn2{
 	background-color: hsl(0, 0%, 100%);
-	margin: 20px auto;
+	display: flex;
 	box-shadow: 0 4px 8px 0 hsl(220, 15%, 55%);
 	max-width: 300px;
 	border-radius: 10px;
@@ -29,7 +29,6 @@ img{
 }
 /*paragraph*/
 p{
-	font-family: outline;
 	font-size: 15px;
 	font-weight: 400; 
 	text-align: center;
@@ -38,7 +37,6 @@ p{
 }
 /*heading*/
 h3{
-	font-family: outline;
 	font-size: 15px;
 	color: hsl(218, 44%, 22%);
 	font-weight: 700; 
